@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.App {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+body {
+  margin-top: 4rem;
+  background-color: #f9fafb;
+}
+
+.header-description {
+  padding-top: 0.5rem;
+}
+
+.place-holder {
+  font-size: larger;
+  font-weight: bold;
+  color: #d1d5db;
+}
+
+button {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.5rem;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.movie-list {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item {
+  text-align: left;
+  border: 1px solid #9ca3af;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 1.5rem;
+}
+
+.rating {
+  font-size: smaller;
+  padding-top: 0.25rem;
+  padding-inline-start: 0px;
+}
